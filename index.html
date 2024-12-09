@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Inventory Management</title>
+</head>
+<body>
+    <header>
+        <h1>Store Inventory Management System</h1>
+    </header>
+
+    <section class="actions">
+        <button class="btn" onclick="showInventoryValue()">Show Total Inventory Value</button>
+        <button class="btn" onclick="applyDiscount()">Apply 15% Discount</button>
+        <button class="btn" onclick="findProduct()">Find Product by Name</button>
+    </section>
+
+    <section class="output">
+        <h2>Output:</h2>
+        <button class="btn" onclick="showResults()">Show Results</button>
+        <p id="outputText">Click a button above to see the result here.</p>
+    </section>
+
+    <script src="script.js"></script>
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #0056b3;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004494;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+    </style>
+
+</body>
+</html>
+
